@@ -19,43 +19,55 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Estado:" />
+                android:text="@string/estado" />
 
             <EditText
                 android:id="@+id/editTextText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="L=ligado/D=desligado"
+                android:hint="@string/l_ligado_d_desligado"
                 android:inputType="text" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Grupo:" />
+                android:text="@string/grupo" />
 
             <EditText
                 android:id="@+id/editTextText2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Iluminação"
+                android:hint="@string/ilumina_o"
                 android:inputType="text" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tipo:" />
+                android:text="@string/tipo" />
 
             <EditText
                 android:id="@+id/editTextText3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Lampada"
+                android:hint="@string/lampada"
                 android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ambiente" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:entries="@array/lista_ambientes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
