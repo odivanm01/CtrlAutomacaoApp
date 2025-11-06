@@ -3,7 +3,20 @@
     <string name="title_home">Início</string>
     <string name="title_dashboard">Painel</string>
     <string name="title_notifications">Avisos</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_cad_dispositivo">Cad. Dispositivo</string>
+    <string name="estado">Estado:</string>
+    <string name="l_ligado_d_desligado">L=ligado/D=desligado</string>
+    <string name="grupo">Grupo:</string>
+    <string name="ilumina_o">Iluminação</string>
+    <string name="tipo">Tipo:</string>
+    <string name="lampada">Lampada</string>
+    <string name="ambiente">Ambiente:</string>
+
+    <string-array name="lista_ambientes">
+        <item>Sala</item>
+        <item>Cozinha</item>
+        <item>Quarto</item>
+    </string-array>
+
+
 </resources>
