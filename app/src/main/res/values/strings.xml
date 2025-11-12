@@ -11,6 +11,7 @@
     <string name="tipo">Tipo:</string>
     <string name="lampada">Lampada</string>
     <string name="ambiente">Ambiente:</string>
+    <string name="salvar">Salvar</string>
 
     <string-array name="lista_ambientes">
         <item>Sala</item>
