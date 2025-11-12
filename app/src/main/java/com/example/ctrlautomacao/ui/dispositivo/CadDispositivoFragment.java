@@ -7,10 +7,18 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Spinner;
 
 import com.example.ctrlautomacao.R;
 
 public class CadDispositivoFragment extends Fragment {
+    private EditText etEstado;
+    private EditText etGrupo;
+    private EditText etTipo;
+    private Spinner spAmbiente;
+    private Button btSalvar;
 
     public CadDispositivoFragment() {
         // Required empty public constructor

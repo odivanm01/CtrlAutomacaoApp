@@ -26,7 +26,7 @@
                 android:text="@string/estado" />
 
             <EditText
-                android:id="@+id/editTextText"
+                android:id="@+id/etEstado"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -40,7 +40,7 @@
                 android:text="@string/grupo" />
 
             <EditText
-                android:id="@+id/editTextText2"
+                android:id="@+id/etGrupo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -54,7 +54,7 @@
                 android:text="@string/tipo" />
 
             <EditText
-                android:id="@+id/editTextText3"
+                android:id="@+id/etTipo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -68,7 +68,7 @@
                 android:text="@string/ambiente" />
 
             <Spinner
-                android:id="@+id/spinner"
+                android:id="@+id/spAmbiente"
                 android:entries="@array/lista_ambientes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -79,7 +79,7 @@
                 android:layout_marginBottom="12dp" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btSalvar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/salvar" />
