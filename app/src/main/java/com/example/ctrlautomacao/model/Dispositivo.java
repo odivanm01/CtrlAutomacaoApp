@@ -41,7 +41,7 @@ public class Dispositivo {
             json.put("Estado", this.estado);
             json.put("Grupo", this.grupo);
             json.put("Tipo", this.tipo);
-            json.put("idAmbienrte", this.idAmbiente);
+            json.put("idAmbiente", this.idAmbiente);
 
         } catch (JSONException e) {
             e.printStackTrace();
