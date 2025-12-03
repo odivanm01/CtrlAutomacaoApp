@@ -12,7 +12,7 @@
     <string name="lampada">Lampada</string>
     <string name="ambiente">Ambiente:</string>
     <string name="salvar">Salvar</string>
-    <string name="title_con_dispositivo">con. Dispositivo</string>
+    <string name="title_con_dispositivo">Con. Dispositivo</string>
 
     <string-array name="lista_ambientes">
         <item>Sala</item>
