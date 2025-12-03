@@ -28,4 +28,9 @@
         android:name="com.example.ctrlautomacao.ui.dispositivo.CadDispositivoFragment"
         android:label="@string/title_cad_dispositivo"
         tools:layout="@layout/fragment_cad_dispositivo" />
+    <fragment
+        android:id="@+id/navigation_con_dispositivo"
+        android:name="com.example.ctrlautomacao.ui.dispositivo.ConDispositivoFragment"
+        android:label="@string/title_con_dispositivo"
+        tools:layout="@layout/fragment_con_dispositivo_list" />
 </navigation>

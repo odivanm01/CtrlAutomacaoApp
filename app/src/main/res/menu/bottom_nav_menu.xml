@@ -17,6 +17,11 @@
         android:title="@string/title_cad_dispositivo" />
 
     <item
+        android:id="@+id/navigation_con_dispositivo"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/title_con_dispositivo" />
+
+    <item
         android:id="@+id/navigation_notifications"
         android:icon="@drawable/ic_notifications_black_24dp"
         android:title="@string/title_notifications" />
