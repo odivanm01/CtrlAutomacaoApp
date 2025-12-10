@@ -23,7 +23,7 @@ public class Dispositivo {
     //CONSTRUTOR - inicializa atributos de um arquivo JSon
     public Dispositivo (JSONObject jp) {
         try {
-            this.setId(jp.getInt("ipDispositivo"));
+            this.setId(jp.getInt("IpDispositivo"));
             this.setEstado(jp.getString("Estado"));
             this.setGrupo(jp.getString("Grupo"));
             this.setTipo(jp.getString("Tipo"));
